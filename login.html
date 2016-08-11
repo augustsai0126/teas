@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TEA'S原味後台作業系統</title>
+<script type="text/javascript">
+function show(){
+var curTime=new Date();
+document.getElementById("cc").innerHTML = curTime.toLocaleString();
+setTimeout("show()",1000);
+}
+</script>
+</head>
+<body  bgcolor="#99FFFF" onload="show()">
+    
+<div id=cc></div>
+<h1 align="center">歡迎使用TEA'S原味後台作業系統</h1>
+        
+ <p align="center">　</p>
+ <p align="center">　</p>
+ <p align="center">　</p>
+ <p align="center">　</p>
+ <p align="center">　</p>
+ <p align="center">　</p>
+ <p align="center">  </p>
+    
+ <form action="login.php" method="post" autocomplete="off" >
+     <p align="center">
+      帳號: <input type="text" name="em_id"  /><br/>    
+      密碼: <input type="password" name="em_password" /><br/>
+      <input type="submit" value="登入"/><br/>      
+     </p> 
+  </form>
+
+</body >
+</html>
+
